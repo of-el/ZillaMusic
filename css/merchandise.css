@@ -1,0 +1,346 @@
+* {
+	margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+article, aside, figure, footer, header, nav, section { display: block; }
+
+html { 
+	height: 100%; 
+	background-image: url("../img/cityBackDrop.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: black;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+header img {
+	position: relative;
+	left: 200px;
+}
+
+#title_nav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#title_nav ul {
+	/*Gradient*/
+	background: rgba(64,61,64,1);
+	background: -moz-linear-gradient(top, rgba(64,61,64,1) 0%, rgba(209,209,209,1) 56%, rgba(219,219,219,1) 63%, rgba(232,229,232,1) 76%, rgba(254,254,254,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(64,61,64,1)), color-stop(56%, rgba(209,209,209,1)), color-stop(63%, rgba(219,219,219,1)), color-stop(76%, rgba(232,229,232,1)), color-stop(100%, rgba(254,254,254,1)));
+	background: -webkit-linear-gradient(top, rgba(64,61,64,1) 0%, rgba(209,209,209,1) 56%, rgba(219,219,219,1) 63%, rgba(232,229,232,1) 76%, rgba(254,254,254,1) 100%);
+	background: -o-linear-gradient(top, rgba(64,61,64,1) 0%, rgba(209,209,209,1) 56%, rgba(219,219,219,1) 63%, rgba(232,229,232,1) 76%, rgba(254,254,254,1) 100%);
+	background: -ms-linear-gradient(top, rgba(64,61,64,1) 0%, rgba(209,209,209,1) 56%, rgba(219,219,219,1) 63%, rgba(232,229,232,1) 76%, rgba(254,254,254,1) 100%);
+	background: linear-gradient(to bottom, rgba(64,61,64,1) 0%, rgba(209,209,209,1) 56%, rgba(219,219,219,1) 63%, rgba(232,229,232,1) 76%, rgba(254,254,254,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403d40', endColorstr='#fefefe', GradientType=0 );
+
+	/*Navbar shadow*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+	list-style: none;
+	padding: 1em 0;    /* padding above and below li elements */
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+	text-align: center;
+}
+
+#title_nav li {
+	display: inline;
+	padding: 0 1.5em;
+	border-left: 2px solid black;
+	border-right: 2px solid black; 
+}
+
+#title_nav a {
+	font-weight: bold;
+	color: black; 
+	text-decoration: none;
+}
+
+#title_nav a:hover { color: white; }
+
+#body {
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background: rgba(153, 17, 0, 0.5);
+}
+
+.wrapper {
+	width: 770px;
+	height: auto;
+	margin: 10px;
+	border: grey solid medium;
+	padding: 3px;
+}
+
+.clearfix {
+	overflow: auto; /*takes care of floating cases if you 
+					use height auto i.e. wrapper class*/
+}
+
+/************ First shirt ***********/
+
+#logo_shirt {
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border: solid thin black;
+	font-family: Verdana;
+	float: left;
+	margin-left: 10px;
+	margin-right: 60px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: black;
+}
+
+#logo_shirt button {
+	position: relative;
+	top: -15px;
+	color: black;
+}
+
+#logo_shirt p {
+	position: relative;
+	top: -25px;
+}
+
+#logo_shirt img {
+	display: block;
+	position: relative;
+	left: -85px;
+	top: -30px;
+}
+
+#logo_shirt select[name=color] {
+	position: relative;
+	top: -35px;
+}
+
+#logo_shirt select[name=size]{
+	position: relative;
+	top: -35px;
+}
+
+/************ Second shirt ***********/
+
+#robot_shirt {
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border: solid thin black;
+	font-family: Verdana;
+	float: left;
+	margin-left: 10px;
+	margin-right: 60px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	background-color: black;
+}
+
+#robot_shirt img {
+	display: block;
+	position: relative;
+	left: 9px;
+	top: 5px;
+}
+
+#robot_shirt button {
+	position: relative;
+	top: 60px;
+	color: black;
+}
+
+#robot_shirt p {
+	position: relative;
+	top: 50px;
+}
+
+#robot_shirt select[name=color] {
+	position: relative;
+	top: 40px;
+}
+
+#robot_shirt select[name=size] {
+	position: relative;
+	top: 40px;
+}
+
+/************ Third shirt ***********/
+
+#outline_shirt {
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border: solid thin black;
+	font-family: Verdana;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	background-color: black;
+}
+
+#outline_shirt img {
+	display: block;
+	position: relative;
+	left: 9px;
+	top: 5px;
+}
+
+#outline_shirt button {
+	position: relative;
+	top: 15px;
+	color: black;
+}
+
+#outline_shirt p {
+	position: relative;
+	top: 5px;
+}
+
+#outline_shirt select[name=color] {
+	position: relative;
+	top: -6px;
+}
+
+#outline_shirt select[name=size] {
+	position: relative;
+	top: -6px;
+}
+
+/************ First Hat ***********/
+
+#botHead_hat {
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border: solid thin black;
+	font-family: Verdana;
+	float: left;
+	margin-left: 10px;
+	margin-right: 60px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	background-color: black;
+}
+
+#botHead_hat img {
+	display: block;
+	position: relative;
+	left: 9px;
+	top: 5px;
+}
+
+#botHead_hat button {
+	position: relative;
+	top: 35px;
+	color: black;
+}
+
+#botHead_hat p {
+	position: relative;
+	top: 25px;
+}
+
+#botHead_hat select[name=color] {
+	position: relative;
+	top: 14px;
+}
+
+/************ Second Hat ***********/
+
+#logo_hat {
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border: solid thin black;
+	font-family: Verdana;
+	float: left;
+	margin-left: 10px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	background-color: black;
+}
+
+#logo_hat img {
+	display: block;
+	position: relative;
+	left: 9px;
+	top: 5px;
+}
+
+#logo_hat button {
+	position: relative;
+	top: 15px;
+	color: black;
+}
+
+#logo_hat p {
+	position: relative;
+	top: 5px;
+}
+
+#logo_hat select[name=color] {
+	position: relative;
+	top: -6px;
+}
+
+/************ Third Hat ***********/
+
+#outline_hat {
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	border: solid thin black;
+	font-family: Verdana;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	background-color: black;
+}
+
+#outline_hat img {
+	display: block;
+	position: relative;
+	left: 9px;
+	top: 5px;
+}
+
+#outline_hat button {
+	position: relative;
+	top: 15px;
+	color: black;
+}
+
+#outline_hat p {
+	position: relative;
+	top: 5px;
+}
+
+#outline_hat select[name=color] {
+	position: relative;
+	top: -6px;
+}

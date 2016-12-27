@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Merchandise</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/merchandise.css">
+	<script src="scripts/shoppingCart.js"></script>
+</head>
+<body>
+	<header>
+        <a href="index.html"><img src="img/zilla_logo.png" width="400"></a>
+        <div id="title_nav">
+            <nav>
+                <ul>
+                	<li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="news.html">News &amp; Tutorials</a></li>
+                </ul>
+            </nav>
+        </div>
+	</header>
+	<div id="body">
+		<div class="wrapper clearfix">
+		<!------------------------------Shirts---------------------------------->
+			<div id="logo_shirt">
+				<img src="img/zilla_shirt_blk.png" width="375px">
+				<div class="shirt_info">
+					<p> Modzilla Logo Shirt </p><br>
+					<select name="color">
+						<option value="black">black</option>
+						<option value="white">white</option>
+						<option value="grey">grey</option>
+					</select>
+					<select name="size">
+						<option value="small">small</option>
+						<option value="medium">medium</option>
+						<option value="large">large</option>
+						<option value="x-large">x-large</option>
+					</select>
+					<p> $14.99 </p>
+					<button type="button" onclick="AddtoCart()">Add to Cart</button>
+				</div>
+			</div>
+			<div id="robot_shirt">
+				<img src="img/botHead_shirt.png" width="180px">
+				<div class="shirt_info">
+					<p> Bot-Head Shirt </p><br>
+					<select name="color">
+						<option value="black">black</option>
+						<option value="white" selected>white</option>
+						<option value="grey">grey</option>
+					</select>
+					<select name="size">
+						<option value="small">small</option>
+						<option value="medium">medium</option>
+						<option value="large">large</option>
+						<option value="x-large">x-large</option>
+					</select>
+					<p> $14.99 </p>
+					<button type="button" onclick="AddtoCart()">Add to Cart</button>
+				</div>
+			</div>
+			<div id="outline_shirt">
+				<img src="img/outline_shirt.png" width="180px">
+				<div class="shirt_info">
+					<p> Bot-Head Outline Shirt </p><br>
+					<select name="color">
+						<option value="black">black</option>
+						<option value="white">white</option>
+						<option value="grey" selected>grey</option>
+					</select>
+					<select name="size">
+						<option value="small">small</option>
+						<option value="medium">medium</option>
+						<option value="large">large</option>
+						<option value="x-large">x-large</option>
+					</select>
+					<p> $14.99 </p>
+					<button type="button" onclick="AddtoCart()">Add to Cart</button>
+				</div>
+			</div>
+		<!------------------------------Hats---------------------------------->
+			<div id="botHead_hat">
+				<img src="img/botHead_hat.png" width="180px">
+				<div class="hat_info">
+					<p> Bot-Head Snapback Hat </p><br>
+					<select name="color">
+						<option value="black">black</option>
+						<option value="white" selected>white</option>
+						<option value="grey">grey</option>
+					</select>		
+					<p> $19.99 </p>
+					<button type="button" onclick="AddtoCart()">Add to Cart</button>
+				</div>
+			</div>
+			<div id="logo_hat">
+				<img src="img/logo_hat.png" width="180px">
+				<div class="hat_info">
+					<p> Modzilla Logo Snapback Hat </p><br>
+					<select name="color">
+						<option value="black">black</option>
+						<option value="white">white</option>
+						<option value="grey">grey</option>
+					</select>		
+					<p> $19.99 </p>
+					<button type="button" onclick="AddtoCart()">Add to Cart</button>
+				</div>
+			</div>
+			<div id="outline_hat">
+				<img src="img/outline_hat.png" width="180px">
+				<div class="hat_info">
+					<p> Bot-Head Outline Snapback Hat </p><br>
+					<select name="color">
+						<option value="black">black</option>
+						<option value="white">white</option>
+						<option value="grey" selected="">grey</option>
+					</select>		
+					<p> $19.99 </p>
+					<button type="button" onclick="AddtoCart()">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
